@@ -5,24 +5,21 @@ Goals:
 - Practice on creation charts with `d3` layouts
 - Practice on creation an interactivity
 
-This repo contain a data and a template with comments needed for visualisation. If you'll follow the template you'll need to make
-changes only to `js/script.js` file. The assignment contain three parts and will rated in `50`, `75` and `100` points depending on
-a number of completed parts.
+This repo contain data and a template with comments needed for visualisation. If you follow the template you'll need to make changes only to the `js/script.js` file. The assignment contain three parts and will rated in `50`, `75` and `100` points depending on the number of completed parts.
 
 ## Data
 
-The data is contain information about Netflix serials from 1940 to 2017 years. We'll work with a followin fields:
+The data contains information about Netflix serials from 1940 to 2017 years. We'll work with the following fields:
 
 - title
-- rating(local age rating identifier)
+- rating (local age rating identifier)
 - user rating score
 - release year
 
 ## PART 1
 Make two charts in existing `svg` containers:
 
-1. Bubble chart, on which `release year` mapped to `x` position, `user rating score` mapped to the size of the circle and `rating`
-mapped to a color of the circle.
+1. Bubble chart, on which `release year` mapped to `x` position, `user rating score` mapped to the size of the circle and `rating` mapped to a color of the circle.
 2. Donut chart on sorted array of total serials of every `rating`.
 
 ![](screens/PART1.jpg)
@@ -32,6 +29,7 @@ mapped to a color of the circle.
 1. Add highlighting a circle on bubble chart on `mouseover` with a `stroke`.
 2. Add highlighting an arc on donut chart on `mouseover` with a lower `opacity`.
 3. Add highlighted `rating` identifier to the element at the center of donut chart.
+
 ![](screens/PART2.gif)
 
 ## PART 3
