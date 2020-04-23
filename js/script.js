@@ -31,7 +31,7 @@ const tooltip = d3.select('.tooltip');
 const simulation = d3.forceSimulation()
     .force('center', d3.forceCenter(b_width/2, b_height/2))
     .force('x', d3.forceX(d=> x(+d['release year'])))
-    .force('collide', d3.forceCollide(d=> radius(+d['user rating score'])));
+    .force('collide', d3.forceCollide(d=> radius(+d['user rating score']+3)));
     // ..
 
 
