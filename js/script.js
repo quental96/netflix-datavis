@@ -37,7 +37,7 @@ const simulation = d3.forceSimulation()
 
 d3.csv('data/netflix.csv').then(data=>{
     data = d3.nest().key(d=>d.title).rollup(d=>d[0]).entries(data).map(d=>d.value).filter(d=>d['user rating score']!=='NA');
-    console.log(data)
+    //console.log(data)
     
     const rating = data.map(d=>+d['user rating score']);
     const years = data.map(d=>+d['release year']);
@@ -94,7 +94,7 @@ d3.csv('data/netflix.csv').then(data=>{
         .on('mouseout', outOfArc);
 
     function overBubble(d){
-        console.log(d)
+        //console.log(d)
         // Part 2 - add stroke and stroke-width 
         bubble.selectAll('circle').filter(function(e) { return e == d; })
             .attr('stroke', 'black')
@@ -124,7 +124,7 @@ d3.csv('data/netflix.csv').then(data=>{
     }
 
     function overArc(d){
-        console.log(d)
+        //console.log(d)
         // Part 2 - change donut_lable content
         donut_lable.text(d.data.key);
         // ..
