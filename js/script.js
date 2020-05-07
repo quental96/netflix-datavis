@@ -8,9 +8,11 @@ const colors = [
     '#fdbf6f','#ff7f00','#cab2d6',
     '#6a3d9a','#ffff99','#b15928'];
 
+
 const radius = d3.scaleLinear().range([.5, 20]);
 const color = d3.scaleOrdinal().range(colors);
 const x = d3.scaleLinear().range([0, b_width]);
+
 
 const bubble = d3.select('.bubble-chart')
     .attr('width', b_width).attr('height', b_height);
