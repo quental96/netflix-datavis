@@ -1,11 +1,8 @@
-# HW 3
-
 Goals:
 
 - Practice on creation charts with `d3` layouts
 - Practice on creation an interactivity
 
-This repo contain data and a template with comments needed for visualisation. If you follow the template you'll need to make changes only to the `js/script.js` file. The assignment contain three parts and will rated in `50`, `75` and `100` points depending on the number of completed parts.
 
 ## Data
 
