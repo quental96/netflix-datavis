@@ -1,3 +1,5 @@
+[Link](https://quental96.github.io/netflix-datavis/)
+
 Goals:
 
 - Practice on creation charts with `d3` layouts
